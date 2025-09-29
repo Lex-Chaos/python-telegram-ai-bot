@@ -111,7 +111,7 @@ class OllamaService:
             return f"Ошибка Ollama: {str(e)}"
 
 
-llm_1 = LLMService('prompts/prompt_1.txt')
+llm_1 = LLMService('prompts/Table.txt')
 
 
 cache = {}
